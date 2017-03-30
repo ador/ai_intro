@@ -1,6 +1,17 @@
 import numpy as np
 from sklearn.naive_bayes import BernoulliNB
 
+# The task is to predict if the animal is a cow.
+
+# Our binary features:
+# - 0 Does it have four legs?
+# - 1 Does it have fur?
+# - 2 Is its color black and white?
+# - 3 Is its color black only?
+# - 4 Is its color white only?
+# - 5 Is its color 'other'?
+# - 6 Is it small(under 200kg)?
+
 spider = [0, 0, 1, 0, 0, 0, 1]
 cow_1 = [1, 1, 0, 0, 0, 1, 0]
 cow_2 = [1, 1, 1, 0, 0, 0, 0]
