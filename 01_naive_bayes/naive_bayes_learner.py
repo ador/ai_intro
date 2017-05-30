@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.naive_bayes import BernoulliNB
 
-# The task is to predict if the animal is a cow.
+# The task is to predict if the animal is a cow!
 
 # Our binary features:
 # - 0 Does it have four legs?
